@@ -1,0 +1,41 @@
+* {
+      box-sizing: border-box;
+    }
+
+    body {
+      min-height: 100vh;
+      margin: 0;
+      display: grid;
+      place-items: center;
+      font-family: Arial, sans-serif;
+      background: #eef2ff;
+    }
+
+    .container {
+      display: flex;
+      max-width: 400px;
+      margin: 0 auto;
+      gap: 12px;
+      padding: 24px;
+      background: rgba(255, 255, 255, 0.8);
+      border-radius: 12px;
+      box-shadow: 0 12px 35px rgba(40, 35, 80, 0.14);
+      backdrop-filter: blur(12px);
+    }
+
+    h1 {
+        color: #2b6cb0;
+        text-align: center;
+    }
+
+    input {
+        width: 100%;
+        padding: 8px;
+        box-sizing: border-box;
+    }
+
+    #resultado {
+        font-size: 18px;
+        font-weight: bold;
+        text-align: center;
+    }
